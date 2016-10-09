@@ -1,3 +1,8 @@
 #!/bin/bash
 rm -r public
-hugo server --bind=45.55.205.134 --baseUrl=http://www.getontrac.info --port=80
+theme="ghostwriter"
+if [ -n "$1" ]; then
+	theme="$1"
+fi
+
+hugo server --bind=45.55.205.134 --baseUrl=http://www.getontrac.info --port=80 --theme="$theme"

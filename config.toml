@@ -2,6 +2,62 @@ baseurl = "http://www.getontrac.info"
 title = "Memoriae"
 languageCode = "en-us"
 pygmentsStyle = "native"
-theme = "nofancy"
+theme = "ghostwriter"
+disqusShortname = "memoriae"
 newContentEditor = "nano"
+paginate = 10
 
+[Author]
+	name = "Frank Matranga"
+	profile = "https://github.com/Apexal/"
+
+[Taxonimies]
+	memory = "memories"
+	thought = "thoughts"
+	rant = "rants"
+
+[Params]
+	intro = true
+	headline = "Memoriae"
+	
+	title = "Memoriae"
+	subtitle = "a place for my thoughts/memories/ideas"
+	description = "a place for my thoughts/memories/ideas"
+	copyright = "Released under the MIT license."
+	googleAnalytics = "UA-85437014-1"
+
+	name = "Frank Matranga"
+	bio = "I'm a 16-year-old high school Junior amateur programmer."
+	location = "USA"
+	twitter = "https://www.twitter.com/frank_matranga"
+	github = "https://github.com/Apexal/"
+	gplus = "https://plus.google.com/114253173982092535367"
+	stackoverflow = "http://stackoverflow.com/users/3879064/apexal"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
+
+[[menu.main]]
+    name = "Memories"
+    url = "/tags/memory"
+    weight = 2
+
+[[menu.main]]
+    name = "Thoughts"
+    url = "/tags/thought"
+    weight = 3
+
+[[menu.main]]
+    name = "Rants"
+    url = "/tags/rant"
+    weight = 4
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 5
