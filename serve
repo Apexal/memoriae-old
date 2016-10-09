@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -r public
+hugo server --bind=45.55.205.134 --baseUrl=http://www.getontrac.info --port=80

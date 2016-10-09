@@ -1,3 +1,7 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-title = "My New Hugo Site"
+baseurl = "http://www.getontrac.info"
+title = "Memoriae"
 languageCode = "en-us"
+pygmentsStyle = "native"
+theme = "nofancy"
+newContentEditor = "nano"
+
